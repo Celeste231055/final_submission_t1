@@ -1,0 +1,48 @@
+.logo{
+    float: left;
+    width: 100px;
+    height: 50px;
+    padding-left: 50px;
+    padding-top: 30px;
+}
+.nav-con{
+    float: right;
+    margin-right: 450px;
+}
+.nav-con ul{
+    list-style: none;
+}
+.nav-con li{
+    float: left;
+    height: 50px;
+    margin-right: 40px;
+    padding-top: 38px;
+}
+
+header{
+    width: 1440px;
+    height: 840px;
+    background-color: lightgrey;
+    padding-top: 200px;
+    padding-left: 100px;
+}
+.btn{
+    width: 225px;
+    height: 70px;
+    border-radius: 30px;
+    background-color:black;
+    color: white;
+}
+.vid-box{
+    width: 600px;
+    height: 390px;
+    margin-left: 100px;
+    margin-top: -60px;
+    background-color: darkgrey;
+}
+.featured{
+    height: 560px;
+    width: 740px;
+    margin-top: -60px;
+    background-color: lightgrey;
+}
