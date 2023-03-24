@@ -27,56 +27,106 @@
                 <a href="pages/playlist.html"><li>My Playlist</li></a>
             </ul>
             <div class="search-btn">Search...</div>
-        </div>
-        
+        </div>        
     </nav>
-    <header>
-        <h3>Artist</h3>
-        <h1>Albumn Name</h1>
-        <div class="btn normal">Play</div>
-        <div class="btn inverted">Shuffle</div>
-        <div class="like-btn">
-            <img src="assets/heart_icon.svg">
-        </div>
-    </header>
+
+    
+        <header>
+            <div class="overlay">
+                <h3>Artist</h3>
+                <h1>Albumn Name</h1>
+                <div class="btn normal">Play</div>
+                <div class="btn inverted">Shuffle</div>
+                <div class="like-btn">
+                    <img style="width: 80%" src="assets/heart_icon.svg">
+                </div>
+            </div>
+        </header>
+   
 
     <div class="container">
         
         <div class="row">
             <div class="col-6">
-                <div class="vid-box"></div>
+                <iframe style="margin-top: -50px; position: relative; z-index: 2;" width="550" height="275" src="https://www.youtube.com/embed/AzywQ1cO-4Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
             <div class="col-6">
-                <div class="feature"></div>
+                <div class="feature">
+                    <h3>Featured Artist</h3>
+                    <h1>The Midnight</h1>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere iste, at ut tempore, nihil harum possimus sint delectus nulla nobis accusantium fugit id eaque maiores laboriosam a asperiores cum veritatis.</p>
+                    <div class="arrows">
+                        <img src="assets/left_arrow_icon.svg">
+                        <img src="assets/right_arrow_icon.svg">
+                    </div>
+                </div>
             </div>
         </div>
 
+        <div id="recent-releases">
+            <h3>RECENT RELEASES</h3>
+        </div>
         <div class="row">
             <div class="col-3">
-                <div class="col-box recent"></div>
-                <div class="col-box"></div>
-                <div class="col-box"></div>
+                <div class="col-box">
+                    <iframe width="250px" height="250px" src="https://www.youtube.com/embed/-8dxR4sAaVA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
             </div>
             <div class="col-3">
-                <div class="col-box recent"></div>
-                <div class="col-box"></div>
-                <div class="col-box"></div>
+                <div class="col-box two"></div>
             </div>
             <div class="col-3">
-                <div class="col-box recent"></div>
-                <div class="col-box"></div>
-                <div class="col-box"></div>
+                <div class="col-box three"></div>
             </div>
             <div class="col-3">
-                <div class="col-box recent"></div>
-                <div class="col-box"></div>
-                <div class="col-box"></div>
+                <div class="col-box four"></div>
             </div>
-        </div>
-        
         </div>
 
+        <div id="pop-albums">
+            <h3>POPULAR ALBUMS</h3>
+        </div>
+        <div class="row">
+            <div class="col-3">
+                <div class="col-box">
+                    <iframe width="250" height="250" src="https://www.youtube.com/embed/BBfm-bJn4G4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="col-box"></div>
+            </div>
+            <div class="col-3">
+                <div class="col-box"></div>
+            </div>
+            <div class="col-3">
+                <div class="col-box"></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-3">
+                <div class="col-box">
+                    <iframe width="250" height="250" src="https://www.youtube.com/embed/QpDn4-Na5co" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="col-box"></div>
+            </div>
+            <div class="col-3">
+                <div class="col-box"></div>
+            </div>
+            <div class="col-3">
+                <div class="col-box"></div>
+            </div>
+        </div>
     </div>
-    <footer></footer>
+    <footer>
+        <p>STREAM c 2021</p>
+        <div class="image-con">
+            <div class="youtbe-icon"></div>
+            <div class="facebook-icon"></div>
+            <div class="twitter-icon"></div>
+            <div class="instagram-icon"></div>
+        </div>
+    </footer>
 </body>
 </html>

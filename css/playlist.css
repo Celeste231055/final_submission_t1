@@ -29,3 +29,14 @@
     border-radius: 20px;
     border: 2px solid #151618;
 }
+.mix-header{
+    padding-top: 120px;
+}
+.favorites-mix{
+    width: 350px;
+    height: 350px;
+    background-color: lightgrey;
+    margin-top: 35px;
+    padding-top: 130px;
+    padding-left: 75px;
+}

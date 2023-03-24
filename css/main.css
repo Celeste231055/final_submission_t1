@@ -1,3 +1,6 @@
+nav{
+    width: 100%;
+}
 .logo{
     float: left;
     width: 100px;
@@ -9,6 +12,8 @@
     float: right;
     width: 1000px;
     margin-right: 50px;
+    color: white;
+    font-size: 18px;
 }
 .nav-con ul{
     list-style: none;
@@ -23,7 +28,7 @@
     float: right;
     width: 200px;
     height: 40px;
-    margin-top: 18px;
+    margin-top: 15px;
     padding-top: 5px;
     padding-left: 15px;
     border-radius: 20px;
@@ -31,55 +36,91 @@
 }
 header{
     width: 100%;
-    height: 600px;
-    background-color: lightgrey;
-    padding-top: 200px;
+    height: 800px;
+    background-color: lightgrey;  
+    background-image: url("../assets/logic_no_pressure_home_cover_image.png");
+    background-size: cover;
+    color: white;
+}
+.overlay{
+    width: 100%;
+    height: 800px;
+    background-color: rgba(0,0,0,0.3);
     padding-left: 7%;
+    padding-top: 250px;      
+}
+header h3{
+    font-size: 30px;
+}
+header h1{
+    font-size: 60px;
 }
 .btn{
     float: left;
-    width: 150px;
-    height: 45px;
+    width: 180px;
+    height: 60px;
+    border: 2px solid white;
     border-radius: 30px;
-    background-color:black;
-    color: white;
+    margin-top: 30px;
     margin-right: 20px;
+    font-size: 24px;
+    text-align: center;
 }
-
 
 .like-btn{
     float: right;
-    margin-right: 750px;
-}
-.vid-box{
-    width: 500px;
-    height: 250px;
-    margin-top: -50px;
-    background-color: grey;
-   
+    margin-top: 30px;
+    margin-right: 700px;
 }
 .feature{
-    width: 600px;
+    width: 650px;
     height: 400px;
+    background-color: grey;
     margin-top: -50px;
-    margin-left: -80px;
-    background-color: rgb(231, 159, 159);
+    margin-left: -100px;
+    margin-bottom: 35px;
+    padding-left: 100px;
+    padding-top: 25px;
+    padding-right: 20px;
 }
+.arrows{
+    margin-left: 420px;
+    margin-top: 150px;
 
+}
 .col-box{
-    width: 200px;
-    height: 200px;
-    margin-left: 7%;
+    width: 250px;
+    height: 250px;
+    margin-left: 0 auto;
     margin-top: 20px;
     background-color: grey;
 }
-.recent{
-    margin-bottom: 80px;
-    margin-top: 80px;
+#recent-release{
+    font-size: 24px;
+}
+#pop-albums{
+    margin-top: 35px;
+}
+.two{
+    background-image: url("../assets/blame_it_on_baby_album_cover.png");
+    background-size: cover;
+    background-position: center;
+}
+.three{
+    background-image: url("../assets/no_pressure_album_cover.png");
+    background-size: cover;
+    background-position: center;
+}
+.four{
+    background-image: url("../assets/blame_it_on_baby_album_cover.png");
+    background-size: cover;
+    background-position: center;
 }
 footer{
     width: 100%;
-    height: 80px;
-    background-color: grey;
-    margin-top: 80px;
+    height: 75px;
+    padding-left: 7%;
+    margin-top: 50px;
+    font-weight: bold;
+    padding-top: 25px;
 }
