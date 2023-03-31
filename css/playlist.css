@@ -31,12 +31,76 @@
 }
 .mix-header{
     padding-top: 120px;
+    margin-left: 20px;
 }
-.favorites-mix{
-    width: 350px;
-    height: 350px;
+.mix-box{
+    width: 400px;
+    height: 400px;
     background-color: lightgrey;
     margin-top: 35px;
+    margin-left: 20px;
     padding-top: 130px;
     padding-left: 75px;
+}
+.heading-box{
+    width: 550px;
+    height: 50px;
+    margin-top: 30px;
+    margin-left: 75px;
+}
+.title{
+    float: left;
+    margin-left: 50px;
+}
+.bold{
+    font-weight: bold;
+}
+.table{
+    width: 550px;
+    height: 400px;
+    margin-left: 125px;
+    margin-top: 20px;
+ 
+}
+.table-headings{
+    width: 550px;
+    height: 40px;
+
+    float: left;
+    font-weight: bold;
+}
+.content{
+    width: 550px;
+    height: 60px;
+    float: left;
+}
+.col{
+    float: left;
+    text-align: left;
+}
+
+
+.line-el{
+    width: 85%;
+    height: 100px;
+    margin-top: 125px;
+    margin-left: 95px;
+}
+.line{
+    width: 100%;
+    height: 3px;
+    background-color:lightgrey;
+}
+.line-fill{
+    width: 25%;
+    height: 3px;
+    background-color: black;
+}
+.marker{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-top: -11px;
+    margin-left: 25%;
+    background-color: black;
 }

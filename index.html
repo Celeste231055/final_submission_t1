@@ -21,12 +21,19 @@
         </div>
         <div class="nav-con">
             <ul>
-                <a><li>Recent Releases</li></a> 
-                <a><li>Popular Albums</li></a>
+                <a href="#recent-releases"><li>Recent Releases</li></a> 
+                <a href="#pop-albums"><li>Popular Albums</li></a>
                 <a href="pages/about.html"><li>About Label</li></a>
                 <a href="pages/playlist.html"><li>My Playlist</li></a>
             </ul>
-            <div class="search-btn">Search...</div>
+            <div class="search-btn">
+                <div class="search-text">
+                    <p>Search...</p>
+                </div>
+                <div class="search-icon">
+                    <p>0:</p>
+                </div>
+            </div>
         </div>        
     </nav>
 
@@ -48,12 +55,16 @@
         
         <div class="row">
             <div class="col-6">
-                <iframe style="margin-top: -50px; position: relative; z-index: 2;" width="550" height="275" src="https://www.youtube.com/embed/AzywQ1cO-4Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            </div>
+                <!--
+                <iframe style="margin-top: -50px; position: relative; z-index: 2;" width="550" height="275" src="https://www.youtube.com/embed/XEa6wD9j4CE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe style="margin-top: -50px; position: relative; z-index: 2;" width="550" height="275" src="https://www.youtube.com/embed/WQaH3lh-CA4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                -->
+                <iframe style="margin-top: -50px; position: relative; z-index: 2;" width="550" height="275" src="https://www.youtube.com/embed/cKHlfZgNyqk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
             <div class="col-6">
                 <div class="feature">
-                    <h3>Featured Artist</h3>
-                    <h1>The Midnight</h1>
+                    <h3>The Midnight</h3>
+                    <h1>Endless Summer</h1>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere iste, at ut tempore, nihil harum possimus sint delectus nulla nobis accusantium fugit id eaque maiores laboriosam a asperiores cum veritatis.</p>
                     <div class="arrows">
                         <img src="assets/left_arrow_icon.svg">
@@ -63,43 +74,51 @@
             </div>
         </div>
 
-        <div id="recent-releases">
-            <h3>RECENT RELEASES</h3>
-        </div>
+        
+        <a id="recent-releases">RECENT RELEASES</a>
         <div class="row">
             <div class="col-3">
-                <div class="col-box">
-                    <iframe width="250px" height="250px" src="https://www.youtube.com/embed/-8dxR4sAaVA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                </div>
+                    <div class="col-box">
+                        <div class="icon-box"></div>
+                        
+                        <!--<div class="vid-box" width="250" height="250"><iframe  class="video" src="https://www.youtube.com/embed/WQaH3lh-CA4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+                        -->
+                    </div>
+                
             </div>
             <div class="col-3">
+                <div class="icon-box"></div>
+                <div class="col-box one"></div>
+            </div>
+            <div class="col-3">
+                <div class="icon-box"></div>
                 <div class="col-box two"></div>
             </div>
             <div class="col-3">
+                <div class="icon-box"></div>
                 <div class="col-box three"></div>
-            </div>
-            <div class="col-3">
-                <div class="col-box four"></div>
             </div>
         </div>
 
-        <div id="pop-albums">
-            <h3>POPULAR ALBUMS</h3>
-        </div>
+        <a id="pop-albums">POPULAR ALBUMS</a>
         <div class="row">
             <div class="col-3">
+                <div class="icon-box"></div>
                 <div class="col-box">
                     <iframe width="250" height="250" src="https://www.youtube.com/embed/BBfm-bJn4G4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 </div>
             </div>
             <div class="col-3">
-                <div class="col-box"></div>
+                <div class="icon-box"></div>
+                <div class="col-box four"></div>
             </div>
             <div class="col-3">
-                <div class="col-box"></div>
+                <div class="icon-box"></div>
+                <div class="col-box five"></div>
             </div>
             <div class="col-3">
-                <div class="col-box"></div>
+                <div class="icon-box"></div>
+                <div class="col-box six"></div>
             </div>
         </div>
         <div class="row">
@@ -109,13 +128,13 @@
                 </div>
             </div>
             <div class="col-3">
-                <div class="col-box"></div>
+                <div class="col-box seven"></div>
             </div>
             <div class="col-3">
-                <div class="col-box"></div>
+                <div class="col-box eight"></div>
             </div>
             <div class="col-3">
-                <div class="col-box"></div>
+                <div class="col-box nine"></div>
             </div>
         </div>
     </div>
