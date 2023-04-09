@@ -10,24 +10,44 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"></script>
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;1,500&display=swap" rel="stylesheet">
     <!--Internal Sources-->
     <link rel="stylesheet" href="../css/playlist.css">
 
 </head>
 <body>
     <nav>
-        <div class="logo">
-            <h3>STREAM</h3>
-        </div>
-        <div class="nav-con">
-            <ul>
-                <a href="../index.html#recent-releases"><li>Recent Releases</li></a> 
-                <a href="../index.html#pop-albums"><li>Popular Albums</li></a>
-                <a href="../pages/about.html"><li>About Label</li></a>
-                <a href="playlist.html"><li>My Playlist</li></a>
-            </ul>
-            <div class="search-btn">Search...</div>
-        </div>
+        <div class="container-fliud">
+            <div class="row">
+                <div class="col-2">
+                    <div class="logo">
+                        <a href="../index.html"><div class="logo"><img style="width: 70%;" src="../assets/stream_logo_white.png"></div></a>
+                    </div>
+                </div>
+                <div class="col-7">
+                    <div class="nav-con">
+                        <ul>
+                            <a href="../index.html#recent-releases"><li>Recent Releases</li></a> 
+                            <a href="../idec.html#pop-albums"><li>Popular Albums</li></a>
+                            <a href="../pages/about.html"><li>About Label</li></a>
+                            <a href="playlist.html"><li>My Playlist</li></a>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="search-btn">
+                        <div class="search-text">
+                            <p>Search...</p>
+                        </div>
+                        <div class="search-icon">
+                            <img src="../assets/search_icon.svg" alt="search icon">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>       
     </nav>
     <div class="container">
         
@@ -37,8 +57,11 @@
         <div class="row">
             <div class="col-4">
                 <div class="mix-box">
-                    <h1>FAVORITES</h1>
-                    <h2>MIX</h2>
+                    <div class="mix-overlay">
+                        <h1>FAVORITES</h1>
+                        <h2>MIX</h2>
+                        <img style="width: 10%;" src="../assets/stream_small_logo_white.svg">
+                    </div>
                 </div>
             </div>
             <div class="col-8">
@@ -48,134 +71,183 @@
                     <div class="title">Suggestions Mix</div>
                 </div>   
                 <div class="table">
-                     <div class="table-headings">
-                        <div class="col num">
-                            <p>#</p>
+                    <div class="tab-titles">
+                        <div class="box num">
+                            <h3>#</h3>
                         </div>
-                        <div class="col title">
-                            <p>Song Title</p>
+                        <div class="box song">
+                            <h3>Song Title</h3>
                         </div>
-                        <div class="col album">
-                            <p>Album</p>
+                        <div class="box album">
+                            <h3>Album</h3>
                         </div>
-                        <div class="col duration">
-                            <p>Duration</p>
-                        </div>
-                     </div>
-                     <div class="content">
-                        <div class="col num">
+                        <div class="box duration">
+                            <h3>Duration</h3>
+                        </div>  
+                    </div>  
+                    <div class="content">
+                        <div class="box num">
                             <p>1</p>
                         </div>
-                        <div class="col title">
-                            <p>Song title <br>Artist Name</p>
+                        <div class="box song">
+                            <div class="song-text">
+                                <h3>Infinity</h3>
+                                <p>Wolfclub</p>
+                            </div>
                         </div>
-                        <div class="col album">
-                            <p>Album Name</p>
+                        <div class="box album">
+                            <p>Infinity</p>
                         </div>
-                        <div class="col duration">
-                            <p>2:50</p>
+                        <div class="box duration">
+                            <p>3:22</p>
                         </div>
-                        <div class="col icon">
-                            <p>...</p>
+                        <div class="box icon">
+                            <img src="../assets/options_table_icon.svg">
+                        </div>    
+                    </div> 
+                    <div class="content current">
+                        <div class="box num">
+                            <img src="../assets/currently_playing_icon.svg">
                         </div>
-                     </div>
-                     <div class="content">
-                        <div class="col num">
-                            <p>2</p>
+                        <div class="box song">
+                            <div class="song-text">
+                                <h3>Eleanor Rigby Remix</h3>
+                                <p>Gunship</p>
+                            </div>
                         </div>
-                        <div class="col title">
-                            <p>Song title <br>Artist Name</p>
+                        <div class="box album">
+                            <p>Single</p>
                         </div>
-                        <div class="col album">
-                            <p>Album Name</p>
+                        <div class="box duration">
+                            <p>2:58</p>
                         </div>
-                        <div class="col duration">
-                            <p>2:50</p>
-                        </div>
-                        <div class="col icon">
-                            <p>...</p>
-                        </div>
-                     </div>
-                     <div class="content">
-                        <div class="col num">
+                        <div class="box icon">
+                            <img src="../assets/options_table_icon.svg">
+                        </div>    
+                    </div> 
+                    <div class="content">
+                        <div class="box num">
                             <p>3</p>
                         </div>
-                        <div class="col title">
-                            <p>Song title <br>Artist Name</p>
+                        <div class="box song">
+                            <div class="song-text">
+                                <h3>Scarlet Speedster</h3>
+                                <p>Wayfloe</p>
+                            </div>
                         </div>
-                        <div class="col album">
-                            <p>Album Name</p>
+                        <div class="box album">
+                            <p>Neon West</p>
                         </div>
-                        <div class="col duration">
-                            <p>2:50</p>
+                        <div class="box duration">
+                            <p>2:36</p>
                         </div>
-                        <div class="col icon">
-                            <p>...</p>
-                        </div>
-                     </div>
-                     <div class="content">
-                        <div class="col num">
+                        <div class="box icon">
+                            <img src="../assets/options_table_icon.svg">
+                        </div>    
+                    </div> 
+                    <div class="content">
+                        <div class="box num">
                             <p>4</p>
                         </div>
-                        <div class="col title">
-                            <p>Song title <br>Artist Name</p>
+                        <div class="box song">
+                            <div class="song-text">
+                                <h3>Future Vision</h3>
+                                <p>Waveshapers</p>
+                            </div>
                         </div>
-                        <div class="col album">
-                            <p>Album Name</p>
+                        <div class="box album">
+                            <p>Station Nova</p>
                         </div>
-                        <div class="col duration">
-                            <p>2:50</p>
+                        <div class="box duration">
+                            <p>3:14</p>
                         </div>
-                        <div class="col icon">
-                            <p>...</p>
-                        </div>
-                     </div>
-                     <div class="content">
-                        <div class="col num">
+                        <div class="box icon">
+                            <img src="../assets/options_table_icon.svg">
+                        </div>    
+                    </div> 
+                    <div class="content">
+                        <div class="box num">
                             <p>5</p>
                         </div>
-                        <div class="col title">
-                            <p>Song title <br>Artist Name</p>
+                        <div class="box song">
+                            <div class="song-text">
+                                <h3>Endless Highway</h3>
+                                <p>Wolfclub</p>
+                            </div>
                         </div>
-                        <div class="col album">
-                            <p>Album Name</p>
+                        <div class="box album">
+                            <p>Infinity</p>
                         </div>
-                        <div class="col duration">
-                            <p>2:50</p>
+                        <div class="box duration">
+                            <p>3:10</p>
                         </div>
-                        <div class="col icon">
-                            <p>...</p>
-                        </div>
-                     </div>
-                     <div class="content">
-                        <div class="col num">
+                        <div class="box icon">
+                            <img src="../assets/options_table_icon.svg">
+                        </div>    
+                    </div> 
+                    <div class="content">
+                        <div class="box num">
                             <p>6</p>
                         </div>
-                        <div class="col title">
-                            <p>Song title <br>Artist Name</p>
+                        <div class="box song">
+                            <div class="song-text">
+                                <h3>Heroes</h3>
+                                <p>The Midnight</p>
+                            </div>
                         </div>
-                        <div class="col album">
-                            <p>Album Name</p>
+                        <div class="box album">
+                            <p>Heroes</p>
                         </div>
-                        <div class="col duration">
-                            <p>2:50</p>
+                        <div class="box duration">
+                            <p>5:14</p>
                         </div>
-                        <div class="col icon">
-                            <p>...</p>
-                        </div>
-                     </div>
+                        <div class="box icon">
+                            <img src="../assets/options_table_icon.svg">
+                        </div>    
+                    </div>             
                 </div>
             </div>
-        </div>     
-    </div>
-   
-
-    <div class="line-el">
-        <div class="line">
-            <div class="line-fill"></div>
         </div>
-        <div class="marker"></div>
-    </div>
+        <div class="line-el">
+            <div class="line">
+                <div class="line-fill"></div>
+            </div>
+            <div class="marker"></div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <div class="song-playing">
+                    <div class="thumbnail"></div>
+                    <div class="thumb-text">
+                        <h3>Eleanor Rigby Remix</h3>
+                        <p>Gunship</p>
+                    </div>
+                </div>
 
+            </div>
+            <div class="col-4">
+                <div class="play-bar">
+                    <div class="back-icon">
+                        <img src="../assets/previous_icon.svg" alt="previous symbol">
+                    </div>
+                    <div class="next-icon">
+                        <img src="../assets/next_icon.svg" alt="next symbol">
+                    </div>
+                    <div class="pause-icon">
+                        <img src="../assets/pause_icon.svg" alt="pause symbol">
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="time">
+                    <p>1:11</p>
+                </div>
+                <div class="options-icon">
+                    <img src="../assets/options_media_icon.svg" alt="options icon">
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>

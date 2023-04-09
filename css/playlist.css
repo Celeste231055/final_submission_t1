@@ -1,90 +1,170 @@
+body{
+    background: #080625;
+}
+nav{
+    width: 100%;
+}
 .logo{
-    float: left;
-    width: 100px;
+    width: 200px;
     height: 50px;
-    padding-left: 7%;
-    padding-top: 30px;
+    margin-left: 35px;
+    margin-top: 23px;
+
 }
 .nav-con{
-    float: right;
-    width: 1000px;
-    margin-right: 50px;
+    width: 800px;
+    margin-right: 40px;
+    color: white;
+    font-size: 18px;
+    margin-top: 25px;
 }
 .nav-con ul{
     list-style: none;
 }
 .nav-con li{
     float: left;
-    height: 50px;
+    height: 40px;
     margin-right: 40px;
-    padding-top: 38px;
+    padding-top: 5px;
+    color: white;
 }
 .search-btn{
     float: right;
-    width: 200px;
+    width: 225px;
     height: 40px;
-    margin-top: 18px;
+    margin-top: 25px;
+    margin-right: 50px;
     padding-top: 5px;
     padding-left: 15px;
+    padding-right: 15px;
     border-radius: 20px;
-    border: 2px solid #151618;
+    border: 2px solid #0496CF;
+    color: white;
+
+}
+.search-text{
+    float: left;
+}
+.search-icon{
+    float: right;
 }
 .mix-header{
     padding-top: 120px;
     margin-left: 20px;
+    color: white;
+    font-size: 24px;
+    font-family: 'Lato', sans-serif;
 }
 .mix-box{
-    width: 400px;
-    height: 400px;
-    background-color: lightgrey;
+    width: 450px;
+    height: 450px;
     margin-top: 35px;
     margin-left: 20px;
+    background-image: url("../assets/neon_city.jpg");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+}
+.mix-box h1{
+    font-size: 62px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+.mix-box h2{
+    font-size: 48px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.mix-overlay{
+    width: 450px;
+    height: 450px;
+    background-color: rgba(0, 0, 0, 0.6);
     padding-top: 130px;
-    padding-left: 75px;
+}
+.mix-overlay img{
+    padding-top: 100px;
 }
 .heading-box{
-    width: 550px;
+    width: 500px;
     height: 50px;
     margin-top: 30px;
-    margin-left: 75px;
+    margin-left: 125px;
+    color: white;
 }
 .title{
     float: left;
-    margin-left: 50px;
+    margin-left: 40px;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
 }
 .bold{
     font-weight: bold;
 }
 .table{
-    width: 550px;
+    width: 510px;
     height: 400px;
-    margin-left: 125px;
-    margin-top: 20px;
- 
+    margin-left: 175px;
+    color: white;
 }
-.table-headings{
-    width: 550px;
-    height: 40px;
-
+.tab-titles{
     float: left;
-    font-weight: bold;
+    width: 100%;
+    height: 60px;
+}
+.tab-titles h3{
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
 }
 .content{
-    width: 550px;
+    float: left;
+    width: 100%;
     height: 60px;
-    float: left;
+    border-bottom: 1px solid #4e4983;
 }
-.col{
-    float: left;
-    text-align: left;
+.content h3{
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: white;
+}
+.content p{
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    color: lightgray;
+}
+.current p{
+    color: white;
+    font-weight: 600;
 }
 
+.song-text{
+    margin-top: -15px;
+}
+.box{
+    float: left;
+    padding-top: 15px;
+}
+.num{
+    width: 75px;
+}
+.song{
+    width: 200px;    
+}
+.album{
+    width: 100px;
+}
+.duration{
+    width: 100px;
+}
 
 .line-el{
-    width: 85%;
-    height: 100px;
-    margin-top: 125px;
-    margin-left: 95px;
+    width: 95%;
+    height: 50px;
+    margin-left: 20px;
+    margin-top: 100px;
 }
 .line{
     width: 100%;
@@ -94,13 +174,64 @@
 .line-fill{
     width: 25%;
     height: 3px;
-    background-color: black;
+    background-color: rgb(211, 27, 119);
 }
 .marker{
     width: 20px;
     height: 20px;
     border-radius: 50%;
     margin-top: -11px;
-    margin-left: 25%;
-    background-color: black;
+    margin-left: 24%;
+    background-color: rgb(211, 27, 119);
+}
+.song-playing{
+    width: 370px;
+    height: 150px;
+}
+.thumbnail{
+    width: 80px;
+    height: 80px;
+    margin-left: 20px;
+    background-image: url("../assets/eleanor_rigby.jpg");
+    background-size: cover;
+    background-position: center;
+    float: left;
+}
+.thumb-text{
+    float: right;
+    color: white;
+    padding-top: 15px;
+}
+.thumb-text h3{
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+}
+.thumb-text p{
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+}
+.play-bar{
+    width: 255px;
+    height: 150px;
+    margin-left: 50px;
+}
+.back-icon{
+    float: left;
+    margin-right: 25px;
+    margin-top: 20px;
+}
+.next-icon{
+    float: right;
+    margin-top: 20px;
+}
+.time{
+    float: left;
+    margin-left: 200px;;
+    color: white;
+    margin-top: 20px;
+}
+.options-icon{
+    float: right;
+    margin-right: 50px;
+    margin-top: 20px;
 }
